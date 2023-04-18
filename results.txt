@@ -1,0 +1,400 @@
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1000 -s 8
+time1 without context switch: 	1.706958 us	1.791668 us	1.717925 us	
+measureSingle: array_size = 1000, stride = 8, min time1 = 1.706957817077637
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1000 -s 8
+time2 with context swith: 	4.610395 us	4.381704 us	5.363750 us	
+measureSwitch: array_size = 1000, stride = 8, min time2 = 4.381704330444336
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1000 -s 16
+time1 without context switch: 	1.737618 us	1.945400 us	1.720524 us	
+measureSingle: array_size = 1000, stride = 16, min time1 = 1.720523834228516
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1000 -s 16
+time2 with context swith: 	4.467547 us	4.482770 us	5.252206 us	
+measureSwitch: array_size = 1000, stride = 16, min time2 = 4.467546939849854
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1000 -s 32
+time1 without context switch: 	1.985192 us	1.922560 us	1.823354 us	
+measureSingle: array_size = 1000, stride = 32, min time1 = 1.823353767395020
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1000 -s 32
+time2 with context swith: 	5.176091 us	5.044973 us	4.525054 us	
+measureSwitch: array_size = 1000, stride = 32, min time2 = 4.525053501129150
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1000 -s 64
+time1 without context switch: 	1.853561 us	2.037454 us	1.771808 us	
+measureSingle: array_size = 1000, stride = 64, min time1 = 1.771807670593262
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1000 -s 64
+time2 with context swith: 	5.366027 us	4.688227 us	5.261755 us	
+measureSwitch: array_size = 1000, stride = 64, min time2 = 4.688227176666260
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1000 -s 128
+time1 without context switch: 	2.083731 us	2.692294 us	2.241874 us	
+measureSingle: array_size = 1000, stride = 128, min time1 = 2.083730697631836
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1000 -s 128
+time2 with context swith: 	4.731357 us	4.892468 us	8.164501 us	
+measureSwitch: array_size = 1000, stride = 128, min time2 = 4.731357097625732
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2000 -s 8
+time1 without context switch: 	2.063012 us	2.270174 us	2.576828 us	
+measureSingle: array_size = 2000, stride = 8, min time1 = 2.063012123107910
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2000 -s 8
+time2 with context swith: 	5.016804 us	5.098331 us	4.743838 us	
+measureSwitch: array_size = 2000, stride = 8, min time2 = 4.743838310241699
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2000 -s 16
+time1 without context switch: 	2.126527 us	1.980805 us	1.945662 us	
+measureSingle: array_size = 2000, stride = 16, min time1 = 1.945662498474121
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2000 -s 16
+time2 with context swith: 	5.083084 us	4.639864 us	5.001795 us	
+measureSwitch: array_size = 2000, stride = 16, min time2 = 4.639863967895508
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2000 -s 32
+time1 without context switch: 	2.215672 us	2.825832 us	2.475286 us	
+measureSingle: array_size = 2000, stride = 32, min time1 = 2.215671539306641
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2000 -s 32
+time2 with context swith: 	5.466318 us	5.526197 us	5.642343 us	
+measureSwitch: array_size = 2000, stride = 32, min time2 = 5.466318130493164
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2000 -s 64
+time1 without context switch: 	2.085447 us	2.827811 us	2.195501 us	
+measureSingle: array_size = 2000, stride = 64, min time1 = 2.085447311401367
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2000 -s 64
+time2 with context swith: 	4.904091 us	5.424547 us	5.430114 us	
+measureSwitch: array_size = 2000, stride = 64, min time2 = 4.904091358184814
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2000 -s 128
+time1 without context switch: 	2.214384 us	2.359486 us	2.237010 us	
+measureSingle: array_size = 2000, stride = 128, min time1 = 2.214384078979492
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2000 -s 128
+time2 with context swith: 	5.489707 us	5.587947 us	5.294251 us	
+measureSwitch: array_size = 2000, stride = 128, min time2 = 5.294251441955566
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 4000 -s 8
+time1 without context switch: 	2.192616 us	2.586460 us	2.380252 us	
+measureSingle: array_size = 4000, stride = 8, min time1 = 2.192616462707520
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 4000 -s 8
+time2 with context swith: 	5.013597 us	5.161822 us	5.831528 us	
+measureSwitch: array_size = 4000, stride = 8, min time2 = 5.013597011566162
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 4000 -s 16
+time1 without context switch: 	2.340269 us	2.588987 us	2.392578 us	
+measureSingle: array_size = 4000, stride = 16, min time1 = 2.340269088745117
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 4000 -s 16
+time2 with context swith: 	4.869342 us	5.426264 us	5.175889 us	
+measureSwitch: array_size = 4000, stride = 16, min time2 = 4.869341850280762
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 4000 -s 32
+time1 without context switch: 	2.655411 us	2.902603 us	2.401805 us	
+measureSingle: array_size = 4000, stride = 32, min time1 = 2.401804924011230
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 4000 -s 32
+time2 with context swith: 	6.799328 us	4.867184 us	5.632544 us	
+measureSwitch: array_size = 4000, stride = 32, min time2 = 4.867184162139893
+oot@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 4000 -s 64
+time1 without context switch: 	2.393484 us	2.583337 us	2.875924 us	
+measureSingle: array_size = 4000, stride = 64, min time1 = 2.393484115600586
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 4000 -s 64
+time2 with context swith: 	6.326389 us	5.354273 us	5.126846 us	
+measureSwitch: array_size = 4000, stride = 64, min time2 = 5.126845836639404
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 4000 -s 128
+time1 without context switch: 	2.589822 us	2.539039 us	2.862406 us	
+measureSingle: array_size = 4000, stride = 128, min time1 = 2.539038658142090
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 4000 -s 128
+time2 with context swith: 	6.002855 us	5.021322 us	5.477452 us	
+measureSwitch: array_size = 4000, stride = 128, min time2 = 5.021321773529053
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 8000 -s 8
+time1 without context switch: 	3.075361 us	4.107714 us	3.058386 us	
+measureSingle: array_size = 8000, stride = 8, min time1 = 3.058385848999023
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 8000 -s 8
+time2 with context swith: 	6.241488 us	6.026947 us	6.148326 us	
+measureSwitch: array_size = 8000, stride = 8, min time2 = 6.026947498321533
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 8000 -s 16
+time1 without context switch: 	3.154373 us	3.035307 us	3.186512 us	
+measureSingle: array_size = 8000, stride = 16, min time1 = 3.035306930541992
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 8000 -s 16
+time2 with context swith: 	7.458174 us	5.506706 us	5.886769 us	
+measureSwitch: array_size = 8000, stride = 16, min time2 = 5.506706237792969
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 8000 -s 32
+time1 without context switch: 	3.057694 us	3.132415 us	2.955532 us	
+measureSingle: array_size = 8000, stride = 32, min time1 = 2.955532073974609
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 8000 -s 32
+time2 with context swith: 	5.351651 us	5.722439 us	5.565464 us	
+measureSwitch: array_size = 8000, stride = 32, min time2 = 5.351650714874268
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 8000 -s 64
+time1 without context switch: 	3.083420 us	3.028488 us	3.348064 us	
+measureSingle: array_size = 8000, stride = 64, min time1 = 3.028488159179688
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 8000 -s 64
+time2 with context swith: 	6.017661 us	6.439459 us	5.864716 us	
+measureSwitch: array_size = 8000, stride = 64, min time2 = 5.864715576171875
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 8000 -s 128
+time1 without context switch: 	3.337145 us	3.367043 us	3.212714 us	
+measureSingle: array_size = 8000, stride = 128, min time1 = 3.212714195251465
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 8000 -s 128
+time2 with context swith: 	6.102931 us	6.333232 us	6.476986 us	
+measureSwitch: array_size = 8000, stride = 128, min time2 = 6.102931499481201
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 16000 -s 8
+time1 without context switch: 	4.674625 us	5.058765 us	4.753661 us	
+measureSingle: array_size = 16000, stride = 8, min time1 = 4.674625396728516
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 16000 -s 8
+time2 with context swith: 	6.684530 us	7.790077 us	7.099426 us	
+measureSwitch: array_size = 16000, stride = 8, min time2 = 6.684529781341553
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 16000 -s 16
+time1 without context switch: 	4.465079 us	4.378486 us	4.417634 us	
+measureSingle: array_size = 16000, stride = 16, min time1 = 4.378485679626465
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 16000 -s 16
+time2 with context swith: 	7.076466 us	8.808422 us	9.768093 us	
+measureSwitch: array_size = 16000, stride = 16, min time2 = 7.076466083526611
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 16000 -s 32
+time1 without context switch: 	4.479122 us	4.875851 us	5.368924 us	
+measureSingle: array_size = 16000, stride = 32, min time1 = 4.479122161865234
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 16000 -s 32
+time2 with context swith: 	7.737470 us	7.052255 us	7.891583 us	
+measureSwitch: array_size = 16000, stride = 32, min time2 = 7.052254676818848
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 16000 -s 64
+time1 without context switch: 	4.912877 us	4.511571 us	6.330299 us	
+measureSingle: array_size = 16000, stride = 64, min time1 = 4.511570930480957
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 16000 -s 64
+time2 with context swith: 	8.766937 us	9.380460 us	6.831098 us	
+measureSwitch: array_size = 16000, stride = 64, min time2 = 6.831097602844238
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 16000 -s 128
+time1 without context switch: 	4.600501 us	4.273772 us	4.499650 us	
+measureSingle: array_size = 16000, stride = 128, min time1 = 4.273772239685059
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 16000 -s 128
+time2 with context swith: 	7.296801 us	6.962001 us	7.747245 us	
+measureSwitch: array_size = 16000, stride = 128, min time2 = 6.962001323699951
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 32000 -s 8
+time1 without context switch: 	7.079029 us	6.629539 us	6.995392 us	
+measureSingle: array_size = 32000, stride = 8, min time1 = 6.629538536071777
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 32000 -s 8
+time2 with context swith: 	10.059345 us	9.270942 us	9.268117 us	
+measureSwitch: array_size = 32000, stride = 8, min time2 = 9.268116950988770
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 32000 -s 16
+time1 without context switch: 	7.815623 us	7.408166 us	7.259250 us	
+measureSingle: array_size = 32000, stride = 16, min time1 = 7.259249687194824
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 32000 -s 16
+time2 with context swith: 	9.174740 us	9.315479 us	11.376309 us	
+measureSwitch: array_size = 32000, stride = 16, min time2 = 9.174740314483643
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 32000 -s 32
+time1 without context switch: 	7.729459 us	7.679510 us	7.376480 us	
+measureSingle: array_size = 32000, stride = 32, min time1 = 7.376480102539062
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 32000 -s 32
+time2 with context swith: 	9.656012 us	9.377658 us	11.674571 us	
+measureSwitch: array_size = 32000, stride = 32, min time2 = 9.377658367156982
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 32000 -s 64
+time1 without context switch: 	7.370877 us	9.313393 us	7.806802 us	
+measureSingle: array_size = 32000, stride = 64, min time1 = 7.370877265930176
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 32000 -s 64
+time2 with context swith: 	10.424495 us	10.094428 us	12.904871 us	
+measureSwitch: array_size = 32000, stride = 64, min time2 = 10.094428062438965
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 32000 -s 128
+time1 without context switch: 	8.603549 us	7.778692 us	7.361221 us	
+measureSingle: array_size = 32000, stride = 128, min time1 = 7.361221313476562
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 32000 -s 128
+time2 with context swith: 	10.196853 us	9.641945 us	9.703064 us	
+measureSwitch: array_size = 32000, stride = 128, min time2 = 9.641945362091064
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 64000 -s 8
+time1 without context switch: 	15.086627 us	13.625073 us	12.697077 us	
+measureSingle: array_size = 64000, stride = 8, min time1 = 12.697076797485352
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 64000 -s 8
+time2 with context swith: 	17.569637 us	13.604534 us	13.454032 us	
+measureSwitch: array_size = 64000, stride = 8, min time2 = 13.454031944274902
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 64000 -s 16
+time1 without context switch: 	13.292336 us	12.199044 us	11.949468 us	
+measureSingle: array_size = 64000, stride = 16, min time1 = 11.949467658996582
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 64000 -s 16
+time2 with context swith: 	15.705073 us	14.105761 us	14.686477 us	
+measureSwitch: array_size = 64000, stride = 16, min time2 = 14.105761051177979
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 64000 -s 32
+time1 without context switch: 	15.770674 us	14.673328 us	14.285135 us	
+measureSingle: array_size = 64000, stride = 32, min time1 = 14.285135269165039
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 64000 -s 32
+time2 with context swith: 	17.574978 us	21.539557 us	16.059160 us	
+measureSwitch: array_size = 64000, stride = 32, min time2 = 16.059160232543945
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 64000 -s 64
+time1 without context switch: 	25.195956 us	26.606226 us	23.740172 us	
+measureSingle: array_size = 64000, stride = 64, min time1 = 23.740172386169434
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 64000 -s 64
+time2 with context swith: 	30.057418 us	26.959372 us	27.132440 us	
+measureSwitch: array_size = 64000, stride = 64, min time2 = 26.959371566772461
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 64000 -s 128
+time1 without context switch: 	26.617932 us	23.842883 us	25.293398 us	
+measureSingle: array_size = 64000, stride = 128, min time1 = 23.842883110046387
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 64000 -s 128
+time2 with context swith: 	27.009940 us	28.428543 us	25.957894 us	
+measureSwitch: array_size = 64000, stride = 128, min time2 = 25.957894325256348
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 128000 -s 8
+time1 without context switch: 	21.903872 us	22.946715 us	27.121902 us	
+measureSingle: array_size = 128000, stride = 8, min time1 = 21.903872489929199
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 128000 -s 8
+time2 with context swith: 	22.127831 us	22.125506 us	23.979330 us	
+measureSwitch: array_size = 128000, stride = 8, min time2 = 22.125506401062012
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 128000 -s 16
+time1 without context switch: 	23.808360 us	23.695374 us	22.547388 us	
+measureSingle: array_size = 128000, stride = 16, min time1 = 22.547388076782227
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 128000 -s 16
+time2 with context swith: 	24.492669 us	27.354586 us	24.664032 us	
+measureSwitch: array_size = 128000, stride = 16, min time2 = 24.492669105529785
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 128000 -s 32
+time1 without context switch: 	26.174378 us	28.484130 us	28.119850 us	
+measureSingle: array_size = 128000, stride = 32, min time1 = 26.174378395080566
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 128000 -s 32
+time2 with context swith: 	30.047953 us	29.197347 us	29.834068 us	
+measureSwitch: array_size = 128000, stride = 32, min time2 = 29.197347164154053
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 128000 -s 64
+time1 without context switch: 	46.859384 us	46.122050 us	47.060728 us	
+measureSingle: array_size = 128000, stride = 64, min time1 = 46.122050285339355
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 128000 -s 64
+time2 with context swith: 	55.025923 us	53.945339 us	50.243223 us	
+measureSwitch: array_size = 128000, stride = 64, min time2 = 50.243222713470459
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 128000 -s 128
+time1 without context switch: 	50.245357 us	49.806619 us	46.456432 us	
+measureSingle: array_size = 128000, stride = 128, min time1 = 46.456432342529297
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 128000 -s 128
+time2 with context swith: 	51.385796 us	50.569475 us	52.689064 us	
+measureSwitch: array_size = 128000, stride = 128, min time2 = 50.569474697113037
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 256000 -s 8
+time1 without context switch: 	50.652003 us	51.425505 us	42.989659 us	
+measureSingle: array_size = 256000, stride = 8, min time1 = 42.989659309387207
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 256000 -s 8
+time2 with context swith: 	46.711302 us	45.108712 us	45.827425 us	
+measureSwitch: array_size = 256000, stride = 8, min time2 = 45.108711719512939
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 256000 -s 16
+time1 without context switch: 	51.979184 us	50.565481 us	49.317884 us	
+measureSingle: array_size = 256000, stride = 16, min time1 = 49.317884445190430
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 256000 -s 16
+time2 with context swith: 	95.287549 us	87.002885 us	59.368300 us	
+measureSwitch: array_size = 256000, stride = 16, min time2 = 59.368300437927246
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 256000 -s 32
+time1 without context switch: 	66.744208 us	65.096760 us	62.955332 us	
+measureSingle: array_size = 256000, stride = 32, min time1 = 62.955331802368171
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 256000 -s 32
+time2 with context swith: 	66.027129 us	74.343050 us	79.235041 us	
+measureSwitch: array_size = 256000, stride = 32, min time2 = 66.027128696441650
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 256000 -s 64
+time1 without context switch: 	107.066298 us	106.515622 us	104.865003 us	
+measureSingle: array_size = 256000, stride = 64, min time1 = 104.865002632141113
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 256000 -s 64
+time2 with context swith: 	113.531995 us	124.807847 us	133.511662 us	
+measureSwitch: array_size = 256000, stride = 64, min time2 = 113.531994819641113
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 256000 -s 128
+time1 without context switch: 	105.915141 us	117.387319 us	108.847690 us	
+measureSingle: array_size = 256000, stride = 128, min time1 = 105.915141105651855
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 256000 -s 128
+time2 with context swith: 	111.559451 us	110.504246 us	111.250079 us	
+measureSwitch: array_size = 256000, stride = 128, min time2 = 110.504245758056641
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 384000 -s 8
+time1 without context switch: 	65.189004 us	66.799235 us	64.829421 us	
+measureSingle: array_size = 384000, stride = 8, min time1 = 64.829421043395996
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 384000 -s 8
+time2 with context swith: 	59.898698 us	62.085474 us	64.917934 us	
+measureSwitch: array_size = 384000, stride = 8, min time2 = 59.898698329925537
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 384000 -s 16
+time1 without context switch: 	91.909719 us	89.921808 us	77.010703 us	
+measureSingle: array_size = 384000, stride = 16, min time1 = 77.010703086853027
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 384000 -s 16
+time2 with context swith: 	70.669389 us	70.242429 us	67.981744 us	
+measureSwitch: array_size = 384000, stride = 16, min time2 = 67.981743812561035
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 384000 -s 32
+time1 without context switch: 	97.735095 us	105.567336 us	102.454162 us	
+measureSingle: array_size = 384000, stride = 32, min time1 = 97.735095024108887
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 384000 -s 32
+time2 with context swith: 	112.498021 us	111.411059 us	109.644878 us	
+measureSwitch: array_size = 384000, stride = 32, min time2 = 109.644877910614014
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 384000 -s 64
+time1 without context switch: 	165.089035 us	165.812612 us	172.665858 us	
+measureSingle: array_size = 384000, stride = 64, min time1 = 165.089035034179688
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 384000 -s 64
+time2 with context swith: 	158.964980 us	166.637671 us	160.793877 us	
+measureSwitch: array_size = 384000, stride = 64, min time2 = 158.964979648590088
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 384000 -s 128
+time1 without context switch: 	164.643097 us	170.210862 us	185.034537 us	
+measureSingle: array_size = 384000, stride = 128, min time1 = 164.643096923828125
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 384000 -s 128
+time2 with context swith: 	192.119217 us	191.726184 us	179.717243 us	
+measureSwitch: array_size = 384000, stride = 128, min time2 = 179.717242717742920
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 512000 -s 8
+time1 without context switch: 	84.984422 us	91.895795 us	93.137336 us	
+measureSingle: array_size = 512000, stride = 8, min time1 = 84.984421730041504
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 512000 -s 8
+time2 with context swith: 	79.003501 us	87.338841 us	81.892693 us	
+measureSwitch: array_size = 512000, stride = 8, min time2 = 79.003500938415527
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 512000 -s 16
+time1 without context switch: 	103.826976 us	102.454329 us	95.028758 us	
+measureSingle: array_size = 512000, stride = 16, min time1 = 95.028758049011230
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 512000 -s 16
+time2 with context swith: 	92.342925 us	96.616054 us	90.561569 us	
+measureSwitch: array_size = 512000, stride = 16, min time2 = 90.561568737030029
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 512000 -s 32
+time1 without context switch: 	137.227368 us	130.468535 us	130.069923 us	
+measureSingle: array_size = 512000, stride = 32, min time1 = 130.069923400878906
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 512000 -s 32
+time2 with context swith: 	132.461703 us	134.892714 us	131.792724 us	
+measureSwitch: array_size = 512000, stride = 32, min time2 = 131.792724132537842
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 512000 -s 64
+time1 without context switch: 	263.724566 us	255.527878 us	230.134034 us	
+measureSingle: array_size = 512000, stride = 64, min time1 = 230.134034156799316
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 512000 -s 64
+time2 with context swith: 	237.343276 us	233.682775 us	234.707260 us	
+measureSwitch: array_size = 512000, stride = 64, min time2 = 233.682775497436523
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 512000 -s 128
+time1 without context switch: 	318.883228 us	239.220047 us	255.410886 us	
+measureSingle: array_size = 512000, stride = 128, min time1 = 239.220046997070312
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 512000 -s 128
+time2 with context swith: 	259.775507 us	249.696040 us	250.466394 us	
+measureSwitch: array_size = 512000, stride = 128, min time2 = 249.696040153503390
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1024000 -s 8
+time1 without context switch: 	177.814007 us	167.114162 us	180.547643 us	
+measureSingle: array_size = 1024000, stride = 8, min time1 = 167.114162445068359
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1024000 -s 8
+time2 with context swith: 	151.694357 us	150.089574 us	149.785864 us	
+measureSwitch: array_size = 1024000, stride = 8, min time2 = 149.785864353179932
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1024000 -s 16
+time1 without context switch: 	194.051313 us	193.220735 us	188.931441 us	
+measureSingle: array_size = 1024000, stride = 16, min time1 = 188.931441307067871
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1024000 -s 16
+time2 with context swith: 	203.424335 us	189.191926 us	185.816920 us	
+measureSwitch: array_size = 1024000, stride = 16, min time2 = 185.816919803619385
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1024000 -s 32
+time1 without context switch: 	277.780533 us	276.042295 us	277.468705 us	
+measureSingle: array_size = 1024000, stride = 32, min time1 = 276.042294502258301
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1024000 -s 32
+time2 with context swith: 	287.852502 us	281.121361 us	305.764925 us	
+measureSwitch: array_size = 1024000, stride = 32, min time2 = 281.121361255645752
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1024000 -s 64
+time1 without context switch: 	510.874152 us	459.495521 us	494.735074 us	
+measureSingle: array_size = 1024000, stride = 64, min time1 = 459.495520591735840
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1024000 -s 64
+time2 with context swith: 	512.485826 us	524.116004 us	540.210521 us	
+measureSwitch: array_size = 1024000, stride = 64, min time2 = 512.485826015472412
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 1024000 -s 128
+time1 without context switch: 	614.174724 us	536.104989 us	503.426147 us	
+measureSingle: array_size = 1024000, stride = 128, min time1 = 503.426146507263184
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 1024000 -s 128
+time2 with context swith: 	541.161525 us	586.297619 us	546.454191 us	
+measureSwitch: array_size = 1024000, stride = 128, min time2 = 541.161525249481201
+
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2048000 -s 8
+time1 without context switch: 	353.414822 us	360.070419 us	364.568615 us	
+measureSingle: array_size = 2048000, stride = 8, min time1 = 353.414821624755859
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2048000 -s 8
+time2 with context swith: 	357.504857 us	361.231637 us	358.659244 us	
+measureSwitch: array_size = 2048000, stride = 8, min time2 = 357.504856586456299
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2048000 -s 16
+time1 without context switch: 	560.160112 us	439.294100 us	420.777392 us	
+measureSingle: array_size = 2048000, stride = 16, min time1 = 420.777392387390137
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2048000 -s 16
+time2 with context swith: 	506.285584 us	499.412632 us	481.030452 us	
+measureSwitch: array_size = 2048000, stride = 16, min time2 = 481.030452251434326
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2048000 -s 32
+time1 without context switch: 	574.161625 us	584.273076 us	549.682522 us	
+measureSingle: array_size = 2048000, stride = 32, min time1 = 549.682521820068359
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2048000 -s 32
+time2 with context swith: 	758.667839 us	782.398438 us	784.347820 us	
+measureSwitch: array_size = 2048000, stride = 32, min time2 = 758.667838573455811
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2048000 -s 64
+time1 without context switch: 	1353.322101 us	1258.173037 us	931.787491 us	
+measureSingle: array_size = 2048000, stride = 64, min time1 = 931.787490844726562
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2048000 -s 64
+time2 with context swith: 	1174.982727 us	1232.677209 us	1173.847115 us	
+measureSwitch: array_size = 2048000, stride = 64, min time2 = 1173.847115039825439
+root@debianih:/home/ih/Downloads/project2/src# ./measureSingle -n 2048000 -s 128
+time1 without context switch: 	1082.104397 us	1081.602407 us	1230.444336 us	
+measureSingle: array_size = 2048000, stride = 128, min time1 = 1081.602406501770020
+root@debianih:/home/ih/Downloads/project2/src# ./measureSwitch -n 2048000 -s 128
+time2 with context swith: 	1441.712487 us	1417.225778 us	1387.246478 us	
+measureSwitch: array_size = 2048000, stride = 128, min time2 = 1387.246477603912354
