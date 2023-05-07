@@ -2,17 +2,14 @@
 #include<stdlib.h>
 int main(int argc, char **argv)
 {
-// Define the constant variable which specifies the
-// page size.
+// page size
 // 4-KB = 4096 bytes
 const int PAGE_SIZE = 4096;
 // Declare variable to hold the address(command line argument)
 unsigned int address;
 // declare variable to hold the computed page number
-// of the given address
 unsigned int page_number;
 // declare variable to hold the computed offset
-// of the given address
 unsigned int offset;
 // Check whether the number of arguments passed are less than 2
 if (argc < 2)
@@ -20,14 +17,12 @@ if (argc < 2)
 // If number of arguments are less than 2, display the error
 // message
 printf("Insufficient number of arguments are passed.\n");
-// Exit from the program
 return -1;
 }
 // Read the value from the command line, convert into integer
 // and store in address variable
 address = atoi(argv[1]);
 // Compute the page number by using the formula
-// page number = address / page size
 page_number = address / PAGE_SIZE;
 // Compute offset by using the formula
 // offset = address % page size
@@ -36,6 +31,6 @@ offset = address % PAGE_SIZE;
 printf("The address %d contains:\n", address);
 printf("Page Number = %d\n", page_number);
 printf("Offset = %d\n", offset);
-// return from main() function
+
 return 0;
 }
