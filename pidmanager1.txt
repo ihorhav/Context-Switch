@@ -2,7 +2,7 @@
 
 #include<stdlib.h>
 
-//Assign constant value
+
 
 #define MIN_PID 300
 
@@ -14,7 +14,7 @@
 
 using namespace std;
 
-//Declare the struct named "tab_pid"
+
 
 struct tab_pid{
 
@@ -24,41 +24,41 @@ int is_avail;
 
 }*pid_obj;
 
-//Declare the function
+
 
 int allocate_map(void)
 
 {
 
-//Declare the variables
+
 
 int k;
 
-//Assign "pid_obj" value
+
 
 pid_obj=(struct tab_pid *)calloc((MAX_PID-MIN_PID+1),sizeof(struct tab_pid));
 
-//"if" loop for verification
+
 
 if(pid_obj==NULL)
 
 return -1;
 
-//Assignment statement
+
 
 pid_obj[0].value_pid=MIN_PID;
 
-//Assignment statement
+
 
 pid_obj[0].is_avail=TRUE;
 
-//"for" loop until "MAX_PID-MIN_PID+1"
+
 
 for( k=1;k<MAX_PID-MIN_PID+1;k++)
 
 {
 
-////Assignment statement
+
 
 pid_obj[k].value_pid=pid_obj[k-1].value_pid+1;
 
@@ -66,39 +66,39 @@ pid_obj[k].is_avail=TRUE;
 
 }
 
-//Returns the value 1
+
 
 return 1;
 
 }
 
-//Declare a function
+
 
 int allocate_pid(void)
 
 {
 
-//Declare a variables
+
 
 int k ;
 
-//for loop until "MAX_PID-MIN_PID+1"
+
 
 for( k=0;k<MAX_PID-MIN_PID+1;k++)
 
 {
 
-//"if" loop for validation
+
 
 if(pid_obj[k].is_avail==TRUE)
 
 {
 
-//Assignment statement
+
 
 pid_obj[k].is_avail=FALSE;
 
-//Returns the value
+
 
 return pid_obj[k].value_pid;
 
@@ -106,17 +106,17 @@ return pid_obj[k].value_pid;
 
 }
 
-//"if" loop
+
 
 if(k==MAX_PID-MIN_PID+1)
 
-//Returns the value -1
+
 
 return -1;
 
 }
 
-//Declare a function "release_pid"
+
 
 void release_pid(int pid){
 
@@ -124,7 +124,7 @@ pid_obj[pid-MIN_PID].is_avail=TRUE;
 
 }
 
-//main method
+
 
 int main()
 
